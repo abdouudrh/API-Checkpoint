@@ -1,6 +1,6 @@
 
 import React from 'react'
-import ApiTest from './components/userList'
+import UserList from './components/userList'
 import "./App.css"
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       
-      <ApiTest/>
+      <UserList/>
     </div>
   );
 }

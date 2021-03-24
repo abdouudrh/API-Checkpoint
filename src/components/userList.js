@@ -9,7 +9,6 @@ const UserList = (props) => {
       const result = await axios("https://jsonplaceholder.typicode.com/users");
 
       setUser(result.data);
-      console.log(typeof result.data);
       console.log(result.data);
     };
 

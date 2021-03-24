@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const UserList = (props) => {
+const UserList = () => {
   const [user, setUser] = useState([]);
 
   useEffect(() => {
